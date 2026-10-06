@@ -16,7 +16,7 @@ This directory contains Kubernetes manifests for deploying the Tic Tac Toe appli
 
 ## Setup Container Registry Secret
 
-Before deploying, you need to create a secret for pulling images from GitHub Container Registry:
+Before deploying, you need to create a secret for pulling images from GitHub Container Registryy:
 
 ```bash
 kubectl create secret docker-registry github-container-registry \
